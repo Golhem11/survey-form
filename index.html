@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            coding-survey-form
+        </title>
+        <style>
+            #main{
+                text-align: center;
+                background-color: rgb(241, 175, 89);
+            }
+            #survey-form{
+
+                 
+            }
+            #survey-div{
+                background-color: rgba(144, 207, 153, 0.555);
+                width: 50%;
+                margin-left: 250px;
+                
+            }
+            #submit{
+                margin-left: 10px;
+                width: 200px;
+                background-color: chartreuse;
+            }
+            #name{
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            #email{
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 10px;    
+            }           
+            #number{
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            #comment{
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            #dropdown{
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            #survey-form{
+                text-align: left;
+                
+            }
+            p{
+                margin-left: 10px;
+            }
+            #p{
+                margin-left: 10px;
+            }
+            #name-label{
+                margin-left: 10px;
+            }
+            #email-label{
+                margin-left: 10px;
+            }
+            #number-label{
+                margin-left: 10px;
+            }
+            #any{
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <div id="main">
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <div id="survey-div">
+           <form id="survey-form">
+        <label id="name-label">Name</label><br>
+        <input type="name" id="name"><br>
+        <label id="email-label">E-mail</E-mail></label><br>
+        <input type="email" id="email"><br>
+        <label id="number-label">Age</label><br>
+        <input type="number" id="number" min="1" max="99"><br>
+        <label id=p>Which option best describes your current role?</label><br>
+        <select id="dropdown">
+            <option value="Select">Select</option>
+            <option value="Student">Student</option>
+            <option value="Full-time-job">Full time job</option>
+            <option value="prefer-not-to-say">Part time job</option>
+            <option>Prefer not to say</option>
+        </select>
+        <p>Would you recommend Coding to your friends?</p>
+        <input name="abc"type="radio" class="definitely">
+        <label>Definitely</label><br>
+        <input name="abc" type="radio" class="Maybe">
+        <label>Maybe</label><br>
+        <input name="abc" type="radio" class="Not-sure">
+        <label>not sure</label>
+        <p>What do you like in Coding?</p>
+        <input value="Front-end" type="checkbox">
+        <label>Front-end Projects</label>   <br>
+        <input value="Back-end" type="checkbox">
+        <label>Back-end Projects</label>  <br>  
+        <input value="Challenges" type="checkbox">
+        <label>Challenges</label>    <br>
+        <input value="Jobs" type="checkbox">
+        <label>Jobs</label>    <br>
+        <input value="knowledge" type="checkbox">
+        <label>knowledge</label>   <br>
+        <label for="comments" id="any">Any Comments:</label><br>
+        <textarea id="comment"></textarea><br>
+        <button id="submit" type="button">Submit</button>
+    </form>
+    </div>
+</body>  <br> 
+</div>
+</html>
